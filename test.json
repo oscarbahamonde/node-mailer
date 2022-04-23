@@ -1,0 +1,10 @@
+{
+    "Headers": {
+        "Content-Type": "application/json"
+    },
+    "Body": {
+     "email": "papo@hotmail.com",
+     "name": "Papo",
+     "message": "Hola, esto es una prueba"
+    }
+}
