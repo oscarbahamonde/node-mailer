@@ -62,6 +62,10 @@ app.post('/email', async (req, res) => {
   }
 })
 
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 app.set('port', process.env.PORT || 8000);
 app.listen(app.get('port'), () => {
   console.log('http;//localhost:' + app.get('port'));
